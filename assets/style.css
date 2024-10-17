@@ -1,0 +1,462 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --pink: rgb(0, 174, 255);
+    --bg: #0a0a0a;
+    --shadow: 0 2px 2px rgba(0, 0, 0 / 0.5)
+}
+
+body{
+    font-size: 1.2rem;
+    font-family: "Belleza", sans-serif;
+    min-height: 2000px;
+}
+
+#hero::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(Image/Desain\ tanpa\ judul.png);
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hero{
+   position: relative;
+   text-align: center;
+   justify-content: center;
+   width: 100%;
+   height: 100vh;
+   color: #cc2b31;
+
+}
+
+
+#nav{
+    display: flex;
+    bottom: 5vh;
+    justify-content: center;
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    z-index: 2;
+   }
+   
+   #nav ul{
+       list-style: none;
+       padding: 0px;
+       background: rgba(74, 243, 255, 0.329);
+       display: inline-block;
+   }
+   #nav ul li{
+       display: inline-block;
+       font-size: 20px;
+       padding: 5px 10px;
+      
+   }
+   
+   #nav ul li:hover{
+       background: white;
+   }
+
+#hero img{
+    height: 130px;
+    margin-top: 50px;
+}
+
+.detak{
+    display:block;
+}
+
+#hero h4{
+    margin-top: 100px;
+    font-family: "Great Vibes", cursive;
+    font-size: 5vh;
+}
+
+#hero h1{
+    font-size: 10vh;
+    font-family: "Dancing Script", cursive;
+}
+
+#hero p{
+    font-size: 3vh;
+    margin-bottom: 49px;
+
+}
+
+.img-l-top{
+    position:absolute;
+    left: -25px;
+    top: -65px;
+  
+}
+.img-r-top{
+    position: absolute;
+    transform: scaleX(-1);
+    top: -65px;
+    right: -25px;
+}
+.img-l-bottom{
+    position: absolute;
+   
+    left: -25px;
+    bottom: 2px;
+}
+.img-r-bottom{
+    position: absolute;
+    right: -25px;
+    bottom: 2px;
+    transform: scaleX(-1);
+}
+
+.btn{
+    background: white;
+    font-size: 18px;
+    font-weight: bold;
+    width: 160px;
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border-radius: 50px;
+    border: 5px solid  #cc2b31 ;
+
+}
+
+#Quotes{
+  background-image: url(Image/coverQuotes.png);
+  width: 100%;
+  height: 120vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+ 
+}
+
+#isimakna{
+    border-radius: 15%;
+    padding: 20px;
+    text-align: center;     
+    margin-top: 20px;
+    bottom: 10px;
+    width: 55%;
+    background-color: rgba(84, 211, 250, 0.466);
+    
+
+}
+
+.lagu{
+    border: #69dcff2c solid 2px;
+    justify-content: center;
+    width: 60%;
+    background-color: rgba(134, 227, 243, 0.589);
+    border-radius: 20%;
+    
+}
+
+
+
+.detakQ{
+    height: 140px;
+}
+
+#ProfilePeng{
+    background-image: url(Image/ProfileBase.png);
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-Pengantin{
+    border-radius: 10px;
+    border: #cc2b31 solid;
+    width: 50vh;
+    height: 110vh;
+    position: relative;
+    bottom: -30px;
+    background-color: rgba(84, 211, 250, 0.212);
+    margin-top: 30px;
+}
+
+#Pria{
+    display: block;
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+}
+
+.hub{
+    justify-content: center;
+    height: 400px;
+    margin-top: -50px;
+}
+
+#Wanita{
+    display: block;
+    width: 100%;
+    height: 50%;
+
+}
+
+.ppracel{
+    height: 250px;
+    align-items: center;
+}
+
+.ppirgi{
+    height: 250px;
+    align-items: center;
+
+
+}
+#ProfilePeng h2{
+    font-family: "Raleway", sans-serif;
+}
+
+#container-Pengantin a{
+    color: #0a0a0a;
+    font-size: 3vh;
+}
+
+#Profilelanjut{
+    background-image: url(Image/Lanjutlok.png);
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#venue{
+    border: rgb(105, 169, 189) solid 3px;
+    width: 50vh;
+    height: 100vh;
+    margin-top: 200px;
+    border-radius: 20%;
+    background-color: rgba(84, 211, 250, 0.212);
+    
+
+}
+
+#venue h2{
+    text-align: center;
+    
+    border-bottom: #0a0a0a solid 2px;
+    
+
+}
+
+#venue h4{
+    text-align: center;
+}
+
+#venue a{
+    text-align: center;
+    color: #0a0a0a;
+}
+
+#resepsi{
+    height: 50%;
+   
+}
+
+#akad{
+    height: 50%;
+   
+}
+
+
+#galery{
+   
+        background-image: url(Image/5.png);
+        background-position: center;
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+#rekaman{
+    text-align: center;
+    justify-content: center;
+    display: block;
+}
+
+#rekaman h4{
+   
+}
+
+#rekaman h1{
+    margin-top: 100px;
+}
+
+.vid-2{
+    
+}
+
+#tangkapan{
+    background-image: url(Image/tangkapan.png);
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+   
+}
+
+#pict{
+   
+    height: 60vh;
+    width: 100vh;
+   
+}
+
+.sma{
+    height: 150px;
+}
+
+.suprax{
+    height: 200px;
+    position: relative;
+    
+}
+
+#pict2{
+    border: #0a0a0a solid 2px;
+    background-color: #cc2b3065;
+    height: 50vh;
+    width: 30vh;
+    
+}
+
+#tangkapan2{
+    background-image: url(Image/tangkapan.png);
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+#pp{
+   
+    height: 60vh;
+    width: 100vh;
+   
+}
+
+.kelapa{
+    height: 200px;
+}
+
+.pantai{
+    height: 200px;
+}
+
+#RSVP{
+    background-image: url(Image/tangkapan.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#Forms{
+    background-color: rgba(211, 234, 255, 0.26);
+    border: rgba(132, 255, 255, 0.582);
+}
+
+#tamu{
+    background-image: url(Image/rsvpsection.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+#daftar{
+   background-color: rgba(129, 240, 240, 0.384);
+   width: 80vh;
+    text-align: center;
+    height: 70vh;
+    border-radius: 10%;
+    align-items: center;
+
+}
+
+table {
+    border: #0a0a0a solid 2px;
+    border-collapse: collapse;
+    height: 70px;
+    width: 500px;
+    margin: 0 auto; 
+    text-align: center;
+}
+
+th, td{
+    border: #0a0a0a solid 2px;
+    height: 50px;
+}
+
+#kisahnya{
+    background-image: url(Image/story.png);
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+#halaman {
+    border-radius: 5%;
+    background-color: rgba(240, 248, 255, 0.658);
+    width: 70%;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 80vh;
+}
+
+#halaman img{
+    height: 150px;
+}
+
+#price{
+    background-image: url(Image/rsvpsection.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    justify-items: center;
+}
